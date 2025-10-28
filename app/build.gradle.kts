@@ -41,5 +41,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation(project(":file-updater-lib"))
+
+//    implementation(project(":file-updater-lib"))
+    implementation("com.github.skywing61:fileUpdaterLib:v1.0.1")
 }

@@ -16,9 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
 rootProject.name = "fileUpdaterLib"
 include(":app")
-include(":file-updater-lib")
+include(":file-updater-library")
