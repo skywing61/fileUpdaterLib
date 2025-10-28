@@ -41,6 +41,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
-    implementation(project(":file_updater_lib"))
+    implementation(project(":file-updater-lib"))
 }

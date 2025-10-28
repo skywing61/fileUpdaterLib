@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "fileUpdaterLib"
 include(":app")
-include(":file_updater_lib")
+include(":file-updater-lib")
